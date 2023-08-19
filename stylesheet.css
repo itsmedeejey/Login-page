@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+    background-image: url(img/web3bg.jpg);
+    scroll-behavior: smooth ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(187, 157, 226);
+    
+    overflow-x: hidden;
+}
+#headline{
+    
+    position: relative;
+    color:  aliceblue;
+
+      
+}
+.container{
+    align-items: center;
+    position: relative;
+    top: 410px;
+    height: 380px;
+    width: 550px;
+    
+    background: rgba(108, 126, 226, 0.233);
+    border: 2px solid rgba(255, 255, 255, 0.281);
+    padding: 60px;
+    margin: 10px;
+    
+    border-radius: 15px;
+} 
+.login{
+    color: rgba(245, 245, 220, 0.74);
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}  
+
+.input-box{
+   color: rgb(6, 49, 49);
+    text-align: center;
+    margin: auto;
+    border: 5px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.password{
+    padding: 10px 0;
+    margin: auto;
+    width: 100%;
+    
+    text-align: center;
+    height:50px
+}
+.rememmber-forgot{
+    color: rgba(240, 248, 255, 0.685);
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+.button{
+    color: white;
+    background-color: rgba(101, 54, 230, 0.63);
+    position: relative;
+    top: 10px;
+    align-items: center;
+    left: 190px;
+    border: 0px;
+    border-radius: 7px;
+    width: 60px;
+    height: 25px;
+}
+.button:hover
+{   transition-duration: .7s;
+    transform: scale(1.1);
+}
+.register-link{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    
+}
+.user{
+    
+    background-color: rgba(230, 238, 238, 0.205);
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    height: 35px;
+    width: 270px;
+    border: 0px solid rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.password-box{
+    background-color: rgba(230, 238, 238, 0.205);
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    height: 35px;
+    width: 270px;
+    border: 0px solid black ;
+    border-radius: 15px;
+}
